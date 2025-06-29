@@ -13,7 +13,7 @@ _**2) Listing Current Firewall Rules**_
 
 existing Inbound Rules.
 
-![Alt text](relative/path/to/image.png)
+![Alt text](screenshot_1.png)
 
 _**3) Blocking Inbound Traffic on Port 23 (Telnet)**_
 
@@ -24,7 +24,7 @@ Select Block the connection
 Apply to Domain, Private, and Public profiles
 Name the rule: Block Telnet Port 23
 
-![Alt text](relative/path/to/image.png)
+![Alt text](screenshot_2.png)
 
 _**4) Testing the Block Rule**_
 
@@ -36,7 +36,7 @@ telnet localhost 23
 As expected, the connection failed with the message:
 Could not open connection to the host, on port 23: Connect failed
 
-![Alt text](relative/path/to/image.png)
+![Alt text](screenshot_3.png)
 
 _**5) Removing the Test Block Rule**_
 
